@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <title>Landing</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_wrapper flex container">
+        <div class="header_logo__wrapper flex">
+            <a class="header__logo_link" href="http://instagram.com">
+                <img src="src/img/logo.png">
+            </a>
+        </div>
+        <nav class="header_nav">
+            <ul class="header__nav_list list-reset flex">
+                <li class="header__nav_item">
+                    <a class="header__nav_link" href="#about">Обо мне</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="header__nav_link" href="#result">Результаты</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="header__nav_link" href="#reviews">Отзывы</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="header__nav_link" href="#price">Услуги</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="header__nav_link" href="#contact">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="hero section-margin-bottom">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_one"></div>
+                <div class="swiper-slide slide_two"></div>
+                <div class="swiper-slide slide_three"></div>
+            </div>
+        </div>
+        <div class="hero__content_wrapper container flex">
+            <h1 class="hero__title">Красота и здоровье</h1>
+            <button class="hero__btn btn-reset">Запись на тренировку</button>
+        </div>
+    </section>
+    <section class="about section-padding-top section-margin-bottom" id="about">
+        <div class="about__content_wrapper container flex">
+            <div class="content__img_wrapper">
+                <img src="src/img/myHistoryFoto.jpeg">
+            </div>
+            <div class="about__descr_wrapper flex">
+                <h2 class="about__title">Моя история</h2>
+                <p class="about__descr">Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                    Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                    Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                    Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                    Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                    Начало истории, потом сделать кнопку которая открывает модальное окно, где можно прочитать всю историю полностью
+                </p>
+                <button class="btn-reset flex about__btn">Читать полностью</button>
+            </div>
+            <div class="modal__about">
+                <button class="btn-reset about__modal_button">
+                </button>
+               <div class="about__modal_body">
+                   <p class="about__modal_descr flex">
+                   lorem ipsum
+               </p>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section class="result section-padding-top section-margin-bottom" id="result">
+        <div class="result__content_wrapper container">
+            <h2 class="result__title title">Результаты</h2>
+        </div>
+    </section>
+    <section class="reviews section-padding-top section-margin-bottom" id="reviews">
+        <div class="reviews__content_wrapper container">
+            <h2 class="reviews__title title">Отзывы</h2>
+        </div>
+    </section>
+    <section class="price section-padding-top section-margin-bottom" id="price">
+        <div class="price__content_wrapper">
+            <h2 class="price__title title">Услуги</h2>
+        </div>
+    </section>
+    <section class="contact section-padding-top section-margin-bottom" id="contact" >
+        <div class="contact__content_wrapper">
+            <h2 class="contact__title title">Связаться со мной</h2>
+        </div>
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="footer_content__wrapper flex container">
+        <div class="footer_logo__wrapper">
+            <a class="footer__logo_link" href="https://instagram.com/skorniifit?igshid=NzZlODBkYWE4Ng==">
+                <img class="footer__logo_img" src="src/img/logo.png">
+            </a>
+        </div>
+        <div class="footer_button__wrapper">
+            <button class="footer__btn btn-reset">записаться на тренировку</button>
+        </div>
+        <div class="footer_contact__wrapper">
+            <ul class="footer__contact_list list-reset flex">
+                <li class="footer__contact_item">
+                    <a class="footer_inst__link" href="https://instagram.com/skorniifit?igshid=NzZlODBkYWE4Ng=="><img class="footer__img" src="src/img/instagram.png"></a>
+                </li>
+                <li class="footer__contact_item">
+                    <a class="footer_tg__link" href="#"><img class="footer__img" src="src/img/telegram.png"></a>
+                </li>
+                <li class="footer__contact_item">
+                    <a class="footer_mail__link" href="#"><img class="footer__img" src="src/img/email.png"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="src/js/swiper.js"></script>
+<script src="src/js/main.js"></script>
+</body>
+</html>
